@@ -7,7 +7,7 @@ const showProducts = async () =>{
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Link from "next/link";
-import DeletedataByid from '../util/DeletedataByid/page'
+ import DeletedataByid from '../util/DeletedataByid/page'
 
 
 
