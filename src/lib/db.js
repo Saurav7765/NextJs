@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { name, password } = process.env;
 
 // Construct the connection string
-export const connectionSrt = `mongodb+srv://${encodeURIComponent(name)}:${encodeURIComponent(password)}@cluster0.3e4de.mongodb.net/productDB?retryWrites=true&w=majority&appName=Cluster0`;
+export const connectionSrt = `mongodb+srv://${name}:${password}@cluster0.3e4de.mongodb.net/productDB?retryWrites=true&w=majority&appName=Cluster0`;
 
 // Connect to MongoDB
 mongoose.connect(connectionSrt)
